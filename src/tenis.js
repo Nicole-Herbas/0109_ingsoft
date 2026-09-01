@@ -7,6 +7,9 @@ class TennisGame {
     if (ptj1 === 1) {
       j1 = "15";
     }
+    if (ptj1 === 2) {
+      j1 = "30";
+    }
 
     return j1 + "-" + j2;
   }
