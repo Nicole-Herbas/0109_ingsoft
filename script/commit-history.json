@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "5fc15959291b2ca7ac80c3d208c501d94b19dcfd",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-01T14:10:08.000Z",
       "message": "feat: imprime Love-Love al inicializar el juego",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/5fc15959291b2ca7ac80c3d208c501d94b19dcfd"
     },
     "stats": {
       "total": 17,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-01T14:15:30.000Z",
+      "message": "feat: si jugador1 tiene 1 punto y jugador2 tiene 0 puntos, imprime 15-Love",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 15,
+      "deletions": 3,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

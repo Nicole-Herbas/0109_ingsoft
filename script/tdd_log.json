@@ -40,9 +40,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5fc15959291b2ca7ac80c3d208c501d94b19dcfd",
     "commitName": "feat: imprime Love-Love al inicializar el juego",
     "commitTimestamp": 1788271810509,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788272016782,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788272058381,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: si jugador1 tiene 1 punto y jugador2 tiene 0 puntos, imprime 15-Love",
+    "commitTimestamp": 1788272132053,
+    "testId": 1
   }
 ]
