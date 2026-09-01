@@ -25,5 +25,11 @@ describe('Tennis Game', () => {
     let tennisGame = new TennisGame();
     expect(tennisGame.obtenerScore(4, 0)).toEqual('Game for Player 1');
   });
-});
 
+  it('debería imprimir "Love-15" cuando el jugador 1 tiene 0 puntos y el jugador 2 tiene 1 punto', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(0, 1)).toEqual('Love-15');
+  });
+
+
+});

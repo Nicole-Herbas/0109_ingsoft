@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "afef74a6aaa0e9962c6c33f3e78e1047070a043a",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-01T14:23:37.000Z",
       "message": "feat: si jugador1 tiene 4 puntos y jugador2 tiene 0 puntos, imprime Game for Player 1",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/afef74a6aaa0e9962c6c33f3e78e1047070a043a"
     },
     "stats": {
       "total": 8,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-01T14:30:28.000Z",
+      "message": "feat: si jugador1 tiene 0 puntos y jugador2 tiene 1 punto, imprime Love-15",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-01"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

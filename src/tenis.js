@@ -17,6 +17,10 @@ class TennisGame {
       return "Game for Player 1";
     }
 
+    if (ptj2 === 1) {
+      j2 = "15";
+    }
+
     return j1 + "-" + j2;
   }
 }
