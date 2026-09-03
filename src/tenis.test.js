@@ -65,4 +65,9 @@ describe('Tennis Game', () => {
     let tennisGame = new TennisGame();
     expect(tennisGame.obtenerScore(5, 7)).toEqual('Game for Player 2');
   });
+  //Si el rival gana el siguiente punto, vuelven a Deuce.
+  it('debería imprimir "Deuce" cuando el jugador2 y el jugador1 estan empatados', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(7, 7)).toEqual('Deuce');
+  });
 });

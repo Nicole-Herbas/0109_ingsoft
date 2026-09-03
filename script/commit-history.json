@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eb56be2795eb5982c9164e265cbdfa144af78fc3",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-03T04:09:31.000Z",
       "message": "feat: Desde Deuce,si jugador2 ganar dos puntos seguidos se lleva el game.",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/eb56be2795eb5982c9164e265cbdfa144af78fc3"
     },
     "stats": {
       "total": 8,
@@ -262,6 +262,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-03T04:13:45.000Z",
+      "message": "feat: Desde Deuce,si jugador2 ganar dos puntos seguidos se lleva el game.",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }
