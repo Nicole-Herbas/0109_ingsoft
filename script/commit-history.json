@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "58e824ea516cf92e6caffba162f49ce56bddc1db",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-03T03:53:32.000Z",
       "message": "feat:sijugador1 tiene 3 pts y jugador2 tiene 4pts imprime Advantaje for Player 2",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/58e824ea516cf92e6caffba162f49ce56bddc1db"
     },
     "stats": {
       "total": 7,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-03T04:06:24.000Z",
+      "message": "feat: Desde Deuce, un jugador debe ganar dos puntos seguidos para llevarse el game.",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 7,
+      "deletions": 13,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }

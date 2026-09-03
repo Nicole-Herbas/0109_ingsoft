@@ -330,9 +330,39 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "58e824ea516cf92e6caffba162f49ce56bddc1db",
     "commitName": "feat:sijugador1 tiene 3 pts y jugador2 tiene 4pts imprime Advantaje for Player 2",
     "commitTimestamp": 1788407613981,
     "testId": 11
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788407886603,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 2,
+    "numTotalTests": 16,
+    "timestamp": 1788408244273,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788408317589,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Desde Deuce, un jugador debe ganar dos puntos seguidos para llevarse el game.",
+    "commitTimestamp": 1788408385138,
+    "testId": 12
   }
 ]

@@ -23,7 +23,6 @@ class TennisGame {
     if (ptj1 === 3) {
       j1 = "40";
     }
-    
     if (ptj2 === 1) {
       j2 = "15";
     }
@@ -33,7 +32,9 @@ class TennisGame {
     if (ptj2 === 3) {
       j2 = "40";
     }
-    
+    if(ptj1 > ptj2 && ptj1 >= 4 && ptj1 - ptj2 >= 2) {
+      return "Game for Player 1";
+    } 
     
     return j1 + "-" + j2;
   }
