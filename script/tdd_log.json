@@ -278,9 +278,39 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "acaf99df992163edd2e253b43b72ab50dfc467c8",
     "commitName": "fix:sijugador1 tiene 3 pts y jugador2 tiene 3pts imprime deuce",
     "commitTimestamp": 1788407132977,
     "testId": 9
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788407309500,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788407337987,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788407375023,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:sijugador1 tiene 4 pts y jugador2 tiene 3pts imprime Advantaje for Player 1",
+    "commitTimestamp": 1788407414347,
+    "testId": 10
   }
 ]

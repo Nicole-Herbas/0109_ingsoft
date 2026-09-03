@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "acaf99df992163edd2e253b43b72ab50dfc467c8",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-03T03:45:31.000Z",
       "message": "fix:sijugador1 tiene 3 pts y jugador2 tiene 3pts imprime deuce",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/acaf99df992163edd2e253b43b72ab50dfc467c8"
     },
     "stats": {
       "total": 6,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-03T03:50:13.000Z",
+      "message": "feat:sijugador1 tiene 4 pts y jugador2 tiene 3pts imprime Advantaje for Player 1",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }
