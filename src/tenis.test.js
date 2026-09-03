@@ -56,9 +56,9 @@ describe('Tennis Game', () => {
     expect(tennisGame.obtenerScore(1, 1)).toEqual('15-15');
   });
 
-  it('debería imprimir "deuce" cuando el jugador 1 tiene 4 puntos y el jugador 2 tiene 4 puntos', () => {
+  it('debería imprimir "deuce" cuando el jugador 1 tiene 3 puntos y el jugador 2 tiene 3 puntos', () => {
     let tennisGame = new TennisGame();
-    expect(tennisGame.obtenerScore(4, 4)).toEqual('deuce');
+    expect(tennisGame.obtenerScore(3, 3)).toEqual('deuce');
   });
 
 });

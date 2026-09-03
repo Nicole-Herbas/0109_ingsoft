@@ -264,9 +264,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ea87b18f2948ac9d5abe511257656148b67fa57c",
     "commitName": "feat:sijugador1 tiene 4 pts y jugador2 tiene 4pts imprime deuce",
     "commitTimestamp": 1788407036390,
     "testId": 8
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788407096193,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix:sijugador1 tiene 3 pts y jugador2 tiene 3pts imprime deuce",
+    "commitTimestamp": 1788407132977,
+    "testId": 9
   }
 ]

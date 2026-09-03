@@ -3,7 +3,7 @@ class TennisGame {
   obtenerScore(ptj1, ptj2) {
     let j1 = "Love";
     let j2 = "Love";
-    if (ptj1 === 4 && ptj2 === 4) {
+    if (ptj1 === 3 && ptj2 === 3) {
       return "deuce";
     }else if (ptj1 === 4) {
       return "Game for Player 1";
