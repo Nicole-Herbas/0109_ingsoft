@@ -150,9 +150,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0d12708574023e489ca6eda0147e9427bc532d05",
     "commitName": "feat: si jugador1 tiene 0 puntos y jugador2 tiene 1 punto, imprime Love-15",
     "commitTimestamp": 1788273029955,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788405065107,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788405087065,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:sijugador1 tiene 0 pts y jugador2 tiene 2pts imprime love-30",
+    "commitTimestamp": 1788405132926,
+    "testId": 6
   }
 ]
