@@ -412,9 +412,15 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b5a9888b77e6848433f24b325dcf91bd7c3f1fa4",
     "commitName": "feat: Desde Deuce,si jugador2 ganar dos puntos seguidos se lleva el game.",
     "commitTimestamp": 1788408826470,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementacion de html para el juego",
+    "commitTimestamp": 1788410208015,
+    "testId": 15
   }
 ]
