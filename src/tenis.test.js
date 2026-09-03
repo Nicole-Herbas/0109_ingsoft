@@ -36,5 +36,9 @@ describe('Tennis Game', () => {
     expect(tennisGame.obtenerScore(0, 2)).toEqual('Love-30');
   });
 
+  it('debería imprimir "Love-40" cuando el jugador 1 tiene 0 puntos y el jugador 2 tiene 3 puntos', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(0, 3)).toEqual('Love-40');
+  });
 
 });

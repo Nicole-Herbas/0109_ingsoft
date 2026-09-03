@@ -16,15 +16,15 @@ class TennisGame {
     if (ptj1 === 4) {
       return "Game for Player 1";
     }
-
     if (ptj2 === 1) {
       j2 = "15";
     }
-
     if (ptj2 === 2) {
       j2 = "30";
     }
-
+    if (ptj2 === 3) {
+      j2 = "40";
+    }
     return j1 + "-" + j2;
   }
 }

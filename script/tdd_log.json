@@ -172,9 +172,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1b7c7b8f935a3983353a8e28412824642a6840b6",
     "commitName": "feat:sijugador1 tiene 0 pts y jugador2 tiene 2pts imprime love-30",
     "commitTimestamp": 1788405132926,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788405987765,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788406049568,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:sijugador1 tiene 0 pts y jugador2 tiene 3pts imprime love-40",
+    "commitTimestamp": 1788406110872,
+    "testId": 7
   }
 ]
