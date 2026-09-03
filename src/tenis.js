@@ -5,6 +5,8 @@ class TennisGame {
     let j2 = "Love";
     if (ptj1 === 4 && ptj2 === 3) {
       return "Advantaje for Player 1";
+    }else if (ptj1 === 3 && ptj2 === 4) {
+      return "Advantaje for Player 2";
     }else if (ptj1 === 3 && ptj2 === 3) {
       return "deuce";
     }else if (ptj1 === 4) {

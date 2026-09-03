@@ -64,5 +64,8 @@ describe('Tennis Game', () => {
     let tennisGame = new TennisGame();
     expect(tennisGame.obtenerScore(4, 3)).toEqual('Advantaje for Player 1');
   });
-
+  it('debería imprimir "Advantaje for Player 2" cuando el jugador 1 tiene 3 puntos y el jugador 2 tiene 4 puntos', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(3, 4)).toEqual('Advantaje for Player 2');
+  });
 });

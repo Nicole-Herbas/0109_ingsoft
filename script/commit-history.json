@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "02220f3954556f43d0958fa7e377484cc466381f",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-03T03:50:13.000Z",
       "message": "feat:sijugador1 tiene 4 pts y jugador2 tiene 3pts imprime Advantaje for Player 1",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/02220f3954556f43d0958fa7e377484cc466381f"
     },
     "stats": {
       "total": 8,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-03T03:53:32.000Z",
+      "message": "feat:sijugador1 tiene 3 pts y jugador2 tiene 4pts imprime Advantaje for Player 2",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
