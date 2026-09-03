@@ -3,15 +3,22 @@ class TennisGame {
   obtenerScore(ptj1, ptj2) {
     let j1 = "Love";
     let j2 = "Love";
-    if (ptj1 === 4 && ptj2 === 3) {
-      return "Advantaje for Player 1";
-    }else if (ptj1 === 3 && ptj2 === 4) {
-      return "Advantaje for Player 2";
-    }else if (ptj1 === 3 && ptj2 === 3) {
+    if (ptj1 === 3 && ptj2 === 3) {
       return "deuce";
-    }else if (ptj1 === 4) {
+    }
+    if (ptj1 === ptj2 && ptj1 > 3) {
+      return "Deuce";
+    }
+    if (ptj1 > ptj2 && ptj1 >= 4 && ptj1 - ptj2 === 1) {
+      return "Advantaje for Player 1";
+    }
+    if (ptj2 > ptj1 && ptj2 >= 4 && ptj2 - ptj1 === 1) {
+      return "Advantaje for Player 2";
+    }
+    if (ptj1 > ptj2 && ptj1 >= 4 && ptj1 - ptj2 >= 2) {
       return "Game for Player 1";
-    }else if (ptj2 === 4) {
+    }
+    if (ptj2 > ptj1 && ptj2 >= 4 && ptj2 - ptj1 >= 2) {
       return "Game for Player 2";
     }
     if (ptj1 === 1) {
@@ -31,15 +38,6 @@ class TennisGame {
     }
     if (ptj2 === 3) {
       j2 = "40";
-    }
-    if(ptj1 > ptj2 && ptj1 >= 4 && ptj1 - ptj2 >= 2) {
-      return "Game for Player 1";
-    } 
-    if(ptj2 > ptj1 && ptj2 >= 4 && ptj2 - ptj1 >= 2) {
-      return "Game for Player 2";
-    }
-    if(ptj1 === ptj2 && ptj1 >= 3) {
-      return "Deuce";
     }
     return j1 + "-" + j2;
   }

@@ -418,9 +418,23 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "330bba82539f882e71d82082f05891cbe01ee381",
     "commitName": "feat: implementacion de html para el juego",
     "commitTimestamp": 1788410208015,
     "testId": 15
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788410554770,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: arreglando el deuce, por el orden de los ifs",
+    "commitTimestamp": 1788410651622,
+    "testId": 16
   }
 ]

@@ -285,17 +285,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "330bba82539f882e71d82082f05891cbe01ee381",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-03T04:36:46.000Z",
       "message": "feat: implementacion de html para el juego",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/330bba82539f882e71d82082f05891cbe01ee381"
     },
     "stats": {
       "total": 40,
       "additions": 23,
       "deletions": 17,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-03T04:44:09.000Z",
+      "message": "fix: arreglando el deuce, por el orden de los ifs",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 13,
+      "deletions": 15,
       "date": "2026-09-03"
     },
     "coverage": 100,
