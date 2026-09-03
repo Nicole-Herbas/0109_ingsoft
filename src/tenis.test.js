@@ -61,4 +61,8 @@ describe('Tennis Game', () => {
     let tennisGame = new TennisGame();
     expect(tennisGame.obtenerScore(7, 5)).toEqual('Game for Player 1');
   });
+  it('debería imprimir "Game for Player 2" cuando el jugador2 gana dos puntos seguidos en deuce', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(5, 7)).toEqual('Game for Player 2');
+  });
 });

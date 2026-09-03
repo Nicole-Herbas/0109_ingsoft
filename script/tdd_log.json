@@ -360,9 +360,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "322abd60c9bb1e322afcc632d4c4e2d5788c8723",
     "commitName": "feat: Desde Deuce, un jugador debe ganar dos puntos seguidos para llevarse el game.",
     "commitTimestamp": 1788408385138,
     "testId": 12
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788408440128,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788408506777,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Desde Deuce,si jugador2 ganar dos puntos seguidos se lleva el game.",
+    "commitTimestamp": 1788408572724,
+    "testId": 13
   }
 ]

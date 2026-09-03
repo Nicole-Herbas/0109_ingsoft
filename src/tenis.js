@@ -35,7 +35,9 @@ class TennisGame {
     if(ptj1 > ptj2 && ptj1 >= 4 && ptj1 - ptj2 >= 2) {
       return "Game for Player 1";
     } 
-    
+    if(ptj2 > ptj1 && ptj2 >= 4 && ptj2 - ptj1 >= 2) {
+      return "Game for Player 2";
+    } 
     return j1 + "-" + j2;
   }
 }
