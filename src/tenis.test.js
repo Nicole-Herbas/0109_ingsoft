@@ -41,4 +41,24 @@ describe('Tennis Game', () => {
     expect(tennisGame.obtenerScore(0, 3)).toEqual('Love-40');
   });
 
+  it('debería imprimir "Game for Player 2" cuando el jugador 1 tiene 0 puntos y el jugador 2 tiene 4 puntos', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(0, 4)).toEqual('Game for Player 2');
+  });
+
+  it('debería imprimir "15-15" cuando el jugador 1 tiene 1 punto y el jugador 2 tiene 1 punto', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(1, 1)).toEqual('15-15');
+  });
+    
+  it('debería imprimir "15-15" cuando el jugador 1 tiene 1 punto y el jugador 2 tiene 1 punto', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(1, 1)).toEqual('15-15');
+  });
+
+  it('debería imprimir "deuce" cuando el jugador 1 tiene 4 puntos y el jugador 2 tiene 4 puntos', () => {
+    let tennisGame = new TennisGame();
+    expect(tennisGame.obtenerScore(4, 4)).toEqual('deuce');
+  });
+
 });

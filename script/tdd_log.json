@@ -194,9 +194,79 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "46fca1c66333336656582f5becefe7f041d2259a",
     "commitName": "feat:sijugador1 tiene 0 pts y jugador2 tiene 3pts imprime love-40",
     "commitTimestamp": 1788406110872,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788406373784,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788406444556,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788406484366,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788406577253,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788406729429,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788406833092,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1788406853235,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1788407000727,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:sijugador1 tiene 4 pts y jugador2 tiene 4pts imprime deuce",
+    "commitTimestamp": 1788407036390,
+    "testId": 8
   }
 ]

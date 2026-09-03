@@ -3,7 +3,13 @@ class TennisGame {
   obtenerScore(ptj1, ptj2) {
     let j1 = "Love";
     let j2 = "Love";
-
+    if (ptj1 === 4 && ptj2 === 4) {
+      return "deuce";
+    }else if (ptj1 === 4) {
+      return "Game for Player 1";
+    }else if (ptj2 === 4) {
+      return "Game for Player 2";
+    }
     if (ptj1 === 1) {
       j1 = "15";
     }
@@ -13,9 +19,7 @@ class TennisGame {
     if (ptj1 === 3) {
       j1 = "40";
     }
-    if (ptj1 === 4) {
-      return "Game for Player 1";
-    }
+    
     if (ptj2 === 1) {
       j2 = "15";
     }
@@ -25,6 +29,8 @@ class TennisGame {
     if (ptj2 === 3) {
       j2 = "40";
     }
+    
+    
     return j1 + "-" + j2;
   }
 }

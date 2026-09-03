@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "46fca1c66333336656582f5becefe7f041d2259a",
     "author": "Nicole",
     "commit": {
       "date": "2026-09-03T03:28:29.000Z",
       "message": "feat:sijugador1 tiene 0 pts y jugador2 tiene 3pts imprime love-40",
-      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/46fca1c66333336656582f5becefe7f041d2259a"
     },
     "stats": {
       "total": 10,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Nicole",
+    "commit": {
+      "date": "2026-09-03T03:43:55.000Z",
+      "message": "feat:sijugador1 tiene 4 pts y jugador2 tiene 4pts imprime deuce",
+      "url": "https://github.com/Nicole-Herbas/0109_ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 34,
+      "additions": 30,
+      "deletions": 4,
+      "date": "2026-09-03"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
